@@ -180,3 +180,52 @@
   line-height: 21px;
   color: #9E53CC;
 }
+
+@media screen and (max-width: 500px) {
+  .SignUp__container{
+      position: absolute;
+      width: 400px;
+  }
+
+  .SignUp__next1, .SignUp__next2 {
+    display: none;
+  }
+
+  .SignUp__logo1{
+    left: 140px;
+  }
+
+  .SignUp__logo2{
+    left: 185px;
+  }
+
+  .SignUp__logo3{
+    left: 195px;
+  }
+
+  .SignUp__username input{
+    position: absolute;
+    width: 290px;
+    left: 50px;
+  }
+
+  .SignUp__password input{
+    position: absolute;
+    width: 290px;
+    left: 50px;
+  }
+
+  .SignUp__email_address input{
+    position: absolute;
+    width: 290px;
+    left: 50px;
+  }
+
+  .SignUp__header{
+    left: 140px;
+  }
+
+  .SignIn__change{
+    left: 150px;
+  }
+}
