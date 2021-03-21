@@ -173,3 +173,60 @@
   line-height: 21px;
   color: #9E53CC;
 }
+
+@media screen and (max-width: 500px) {
+  .SignIn__container{
+      position: absolute;
+      width: 400px;
+  }
+
+  .SignIn__next1, .SignIn__next2 {
+    display: none;
+  }
+
+  .SignIn__logo1{
+    left: 140px;
+  }
+
+  .SignIn__logo2{
+    left: 190px;
+  }
+
+  .SignIn__logo3{
+    left: 195px;
+  }
+
+  .SignIn__username input{
+    position: absolute;
+    width: 290px;
+    height: 53px;
+    left: 50px;
+    top: 203px;
+    border: none;
+    outline: none;
+  }
+
+  .SignIn__password input{
+    position: absolute;
+    width: 290px;
+    height: 53px;
+    left: 50px;
+    top: 317px;
+    border: none;
+    outline: none;
+  }
+
+  .SignIn__forgotpass{
+    position: absolute;
+    width: 111px;
+    left: 250px;
+  }
+
+  .SignIn__header{
+    left: 140px;
+  }
+
+  .SignUp__change{
+    left: 150px;
+  }
+}
